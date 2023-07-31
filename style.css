@@ -10,16 +10,26 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    background: linear-gradient(#9de6b4, #fff6e4);
+    /* background-color: green; */
 }
 
 .calculator{
-    width: 300px;
-    height: 500px;
-    box-shadow: 4px 4px 30px rgba(0 ,0, 0, 0.3);
+    width: 100%;
+    height: 100%;
+    padding: 30px;
+    margin: 10px;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    /* box-shadow: 4px 4px 30px rgba(0 ,0, 0, 0.3); */
     border-radius: 12px;
-    background: #22252d;
+    /* background: #22252d; */
+    background: linear-gradient(#8ccdad, #e3e2de);
     overflow: hidden;
+    /* box-shadow: 0 5px 20px rgb(76, 76, 76); */
 }
+
 
 form input{
     width: 100%;
@@ -29,7 +39,7 @@ form input{
     border-radius: 10px;
     font-size: 2rem;
     color: #fff;
-    background-color: #000;
+    background-color: #5c817b;
     text-align: right;
     pointer-events: none;
 }
@@ -41,34 +51,47 @@ form input{
     padding: 20px;
 }
 
+
 button{
     flex: 0 0 22%;
     margin: 5px 0;
-    border: 1px solid #000;
-
+    border: 1px solid #bcf2d3;
     width: 60px;
     height: 52px;
     font-size: 22px;
     font-weight: 600;
     border-radius: 5px;
     cursor: pointer;
+    box-shadow: 0 2px 0px rgb(151, 150, 150);
+
 }
 
+
 .btn-yellow{
-    background: rgb(245, 146, 62);
-    color: #fff;
+    /* background: rgb(65, 186, 112); */
+    background: linear-gradient(#67d49d, #b6d3cd);
+    color: #101010;
 }
+
+/* button.btn-yellow:hover {
+	background-color: rgb(138, 192, 73);
+
+} */
 
 .btn-grey{
     background: rgb(224, 224, 224);
 }
 
 .btn-equal{
-    background: green;
+    /* background: #5c817b; */
+    background: linear-gradient(#6d97ba, #dcecf1);
+
 }
 
 .btn-clear{
-    background: red;
+    /* background: rgb(227, 160, 214); */
+    background: linear-gradient(#cce4d8, #8fcce1);
+
 }
 
 
